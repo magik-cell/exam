@@ -1,0 +1,23 @@
+# http://editorconfig.org
+root = true
+
+[*]
+# Кодування файлів
+charset = utf-8
+# Стиль закінчення рядка (LF для Linux/macOS/Git)
+end_of_line = lf
+# Вставляти порожній рядок в кінці файлу
+insert_final_newline = true
+# Видаляти зайві пробіли в кінці рядків
+trim_trailing_whitespace = true
+# Стиль відступів (пробіли)
+indent_style = space
+# Розмір відступу (2 або 4 — на ваш смак, для TS зазвичай 2)
+indent_size = 2
+
+[*.md]
+# У Markdown файлах іноді потрібні пробіли в кінці рядка для переносу
+trim_trailing_whitespace = false
+
+[package.json]
+indent_size = 2

@@ -1,0 +1,37 @@
+# Залежності (Dependencies)
+node_modules/
+jspm_packages/
+
+# Результати компіляції (Build outputs)
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# Логи (Logs)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Файли середовища (Environment variables)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Системні файли (OS files)
+.DS_Store
+Thumbs.db
+
+# Налаштування IDE (IDE settings)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тимчасові файли (Temporary files)
+tmp/
+temp/

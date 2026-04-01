@@ -1,0 +1,22 @@
+{
+  "name": "facade-pattern-exam",
+  "version": "1.0.0",
+  "description": "Implementation of the Facade structural pattern in TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "design-patterns",
+    "facade"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
